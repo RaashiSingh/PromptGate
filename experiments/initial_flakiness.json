@@ -1,0 +1,10 @@
+﻿{
+  "experiment": "initial_flakiness_observation",
+  "completed_trials": 2,
+  "attempted_trials": 3,
+  "cases_per_trial": 5,
+  "repeats_per_case": 2,
+  "scores": [1.0, 1.0],
+  "third_trial_status": "API error; cause unknown",
+  "note": "Preliminary observations only; insufficient to estimate false-alarm rate."
+}

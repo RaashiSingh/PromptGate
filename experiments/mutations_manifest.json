@@ -1,0 +1,86 @@
+[
+  {
+    "id": "M01",
+    "name": "Force low priority",
+    "type": "regression",
+    "path": "experiments\\mutated_prompts\\M01.txt"
+  },
+  {
+    "id": "M02",
+    "name": "Force medium priority",
+    "type": "regression",
+    "path": "experiments\\mutated_prompts\\M02.txt"
+  },
+  {
+    "id": "M03",
+    "name": "Force billing category",
+    "type": "regression",
+    "path": "experiments\\mutated_prompts\\M03.txt"
+  },
+  {
+    "id": "M04",
+    "name": "Force other category",
+    "type": "regression",
+    "path": "experiments\\mutated_prompts\\M04.txt"
+  },
+  {
+    "id": "M05",
+    "name": "Remove JSON formatting",
+    "type": "regression",
+    "path": "experiments\\mutated_prompts\\M05.txt"
+  },
+  {
+    "id": "M06",
+    "name": "Remove priority field",
+    "type": "regression",
+    "path": "experiments\\mutated_prompts\\M06.txt"
+  },
+  {
+    "id": "M07",
+    "name": "Remove category field",
+    "type": "regression",
+    "path": "experiments\\mutated_prompts\\M07.txt"
+  },
+  {
+    "id": "M08",
+    "name": "Invalid priority values",
+    "type": "regression",
+    "path": "experiments\\mutated_prompts\\M08.txt"
+  },
+  {
+    "id": "M09",
+    "name": "Ignore security incidents",
+    "type": "regression",
+    "path": "experiments\\mutated_prompts\\M09.txt"
+  },
+  {
+    "id": "M10",
+    "name": "Ignore outages",
+    "type": "regression",
+    "path": "experiments\\mutated_prompts\\M10.txt"
+  },
+  {
+    "id": "M11",
+    "name": "Ignore payment problems",
+    "type": "regression",
+    "path": "experiments\\mutated_prompts\\M11.txt"
+  },
+  {
+    "id": "M12",
+    "name": "Conflicting instructions",
+    "type": "regression",
+    "path": "experiments\\mutated_prompts\\M12.txt"
+  },
+  {
+    "id": "M13",
+    "name": "Harmless wording change",
+    "type": "harmless",
+    "path": "experiments\\mutated_prompts\\M13.txt"
+  },
+  {
+    "id": "M14",
+    "name": "Harmless clarity improvement",
+    "type": "harmless",
+    "path": "experiments\\mutated_prompts\\M14.txt"
+  }
+]

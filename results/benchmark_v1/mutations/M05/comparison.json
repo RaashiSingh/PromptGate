@@ -1,0 +1,164 @@
+{
+  "comparison": {
+    "verdict": "FAIL",
+    "reasons": [
+      "Overall score dropped 100.0% (tolerance 5.0%)",
+      "Group 'critical' dropped 100.0% (tolerance 10.0%)",
+      "3 critical case(s) flipped pass to fail: t01, t02, t03"
+    ],
+    "flips_down": [
+      "t01",
+      "t02",
+      "t03"
+    ],
+    "flips_up": [],
+    "base": {
+      "score": 1.0,
+      "groups": {
+        "critical": 1.0
+      },
+      "cost": 0.0,
+      "latency": 0.8247235000599176,
+      "input_tokens": 752,
+      "output_tokens": 461,
+      "errors": 0,
+      "calls": 3
+    },
+    "cand": {
+      "score": 0.0,
+      "groups": {
+        "critical": 0.0
+      },
+      "cost": 0.0,
+      "latency": 0.9883181999903172,
+      "input_tokens": 794,
+      "output_tokens": 1500,
+      "errors": 0,
+      "calls": 3
+    }
+  },
+  "baseline_runs": {
+    "t01": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"billing\",\"summary\":\"Charged twice for annual plan, demands immediate refund.\"}",
+          "latency": 1.0138582000508904,
+          "cost": 0.0,
+          "input_tokens": 255,
+          "output_tokens": 184,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t02": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"technical\",\"summary\":\"Dashboard down for 3 hours, impacting team productivity and sales.\"}",
+          "latency": 0.7359678000211716,
+          "cost": 0.0,
+          "input_tokens": 249,
+          "output_tokens": 130,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t03": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"account\",\"summary\":\"User reports unauthorized login and email change, suspecting account hack.\"}",
+          "latency": 0.7243445001076907,
+          "cost": 0.0,
+          "input_tokens": 248,
+          "output_tokens": 147,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    }
+  },
+  "candidate_runs": {
+    "t01": {
+      "runs": [
+        {
+          "text": "",
+          "latency": 0.9062731999438256,
+          "cost": 0.0,
+          "input_tokens": 269,
+          "output_tokens": 500,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": false,
+            "priority": false,
+            "category": false,
+            "summary": false
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    },
+    "t02": {
+      "runs": [
+        {
+          "text": "",
+          "latency": 0.9342085998505354,
+          "cost": 0.0,
+          "input_tokens": 263,
+          "output_tokens": 500,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": false,
+            "priority": false,
+            "category": false,
+            "summary": false
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    },
+    "t03": {
+      "runs": [
+        {
+          "text": "",
+          "latency": 1.1244728001765907,
+          "cost": 0.0,
+          "input_tokens": 262,
+          "output_tokens": 500,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": false,
+            "priority": false,
+            "category": false,
+            "summary": false
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    }
+  }
+}

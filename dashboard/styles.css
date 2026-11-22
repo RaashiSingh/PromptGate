@@ -1,0 +1,134 @@
+
+/* ==========================================
+   PROMPTGATE DESIGN SYSTEM
+   ========================================== */
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1600px;
+}
+
+/* Main banner */
+
+.hero {
+    padding: 24px 32px;
+    border: 1px solid #37305F;
+    border-radius: 18px;
+    background: linear-gradient(
+        115deg,
+        #111827 0%,
+        #201B45 50%,
+        #090D17 100%
+    );
+    margin-bottom: 24px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: -1.8px;
+    color: #F8FAFC;
+    margin: 0;
+    padding: 0;
+}
+
+.hero p {
+    color: #A5B4FC;
+    font-size: 15px;
+    margin: 8px 0 0;
+}
+
+.eyebrow {
+    color: #A78BFA;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+/* KPI cards */
+
+[data-testid="stMetric"] {
+    background: linear-gradient(
+        145deg,
+        #151D2E,
+        #111827
+    );
+    border: 1px solid #263044;
+    border-radius: 15px;
+    padding: 18px;
+    min-height: 125px;
+    transition: transform 0.2s ease;
+}
+
+[data-testid="stMetric"]:hover {
+    transform: translateY(-3px);
+    border-color: #8B5CF6;
+}
+
+[data-testid="stMetricValue"] {
+    font-weight: 750;
+    color: #A78BFA;
+}
+
+/* Sidebar */
+
+[data-testid="stSidebar"] {
+    background-color: #0F1523;
+    border-right: 1px solid #263044;
+}
+
+/* Buttons */
+
+.stButton > button {
+    border: 1px solid #37305F;
+    border-radius: 10px;
+    background: #151D2E;
+    color: #E2E8F0;
+    transition: all 0.2s ease;
+}
+
+.stButton > button:hover {
+    border-color: #A78BFA;
+    background: #252044;
+    color: #FFFFFF;
+}
+
+/* Chart containers */
+
+[data-testid="stPlotlyChart"] {
+    background: #111827;
+    border: 1px solid #263044;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+/* Data tables */
+
+[data-testid="stDataFrame"] {
+    border: 1px solid #263044;
+    border-radius: 12px;
+}
+
+/* Tabs */
+
+.stTabs [data-baseweb="tab-list"] {
+    gap: 16px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+
+/* Footer */
+
+.footer {
+    color: #64748B;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    padding-top: 30px;
+    border-top: 1px solid #263044;
+    margin-top: 30px;
+}

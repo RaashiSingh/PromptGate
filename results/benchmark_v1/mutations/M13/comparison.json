@@ -1,0 +1,156 @@
+{
+  "comparison": {
+    "verdict": "PASS",
+    "reasons": [],
+    "flips_down": [],
+    "flips_up": [],
+    "base": {
+      "score": 1.0,
+      "groups": {
+        "critical": 1.0
+      },
+      "cost": 0.0,
+      "latency": 0.7793405667568246,
+      "input_tokens": 752,
+      "output_tokens": 461,
+      "errors": 0,
+      "calls": 3
+    },
+    "cand": {
+      "score": 1.0,
+      "groups": {
+        "critical": 1.0
+      },
+      "cost": 0.0,
+      "latency": 0.578871800020958,
+      "input_tokens": 791,
+      "output_tokens": 482,
+      "errors": 0,
+      "calls": 3
+    }
+  },
+  "baseline_runs": {
+    "t01": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"billing\",\"summary\":\"Charged twice for annual plan, demands immediate refund.\"}",
+          "latency": 0.8271741000935435,
+          "cost": 0.0,
+          "input_tokens": 255,
+          "output_tokens": 184,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t02": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"technical\",\"summary\":\"Dashboard down for 3 hours, impacting team productivity and sales.\"}",
+          "latency": 0.9797329001594335,
+          "cost": 0.0,
+          "input_tokens": 249,
+          "output_tokens": 130,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t03": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"account\",\"summary\":\"User reports unauthorized login and email change, suspecting account hack.\"}",
+          "latency": 0.5311147000174969,
+          "cost": 0.0,
+          "input_tokens": 248,
+          "output_tokens": 147,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    }
+  },
+  "candidate_runs": {
+    "t01": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"billing\",\"summary\":\"Customer was double charged for annual plan and demands immediate refund.\"}",
+          "latency": 1.0219334000721574,
+          "cost": 0.0,
+          "input_tokens": 268,
+          "output_tokens": 185,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t02": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"technical\",\"summary\":\"Dashboard down for 3 hours, impacting team productivity and sales.\"}",
+          "latency": 0.4035700000822544,
+          "cost": 0.0,
+          "input_tokens": 262,
+          "output_tokens": 161,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t03": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"account\",\"summary\":\"Account compromised: unauthorized login from another country and email change.\"}",
+          "latency": 0.31111199990846217,
+          "cost": 0.0,
+          "input_tokens": 261,
+          "output_tokens": 136,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    }
+  }
+}

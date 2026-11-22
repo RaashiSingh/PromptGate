@@ -1,0 +1,457 @@
+{
+  "comparison": {
+    "verdict": "FAIL",
+    "reasons": [
+      "Overall score dropped 90.0% (tolerance 5.0%)",
+      "Group 'critical' dropped 90.0% (tolerance 10.0%)",
+      "9 critical case(s) flipped pass to fail: t01, t02, t03, t04, t05, t06, t07, t09, t10"
+    ],
+    "flips_down": [
+      "t01",
+      "t02",
+      "t03",
+      "t04",
+      "t05",
+      "t06",
+      "t07",
+      "t09",
+      "t10"
+    ],
+    "flips_up": [],
+    "base": {
+      "score": 0.9,
+      "groups": {
+        "critical": 0.9
+      },
+      "cost": 0.0,
+      "latency": 0.8546949499286711,
+      "input_tokens": 2511,
+      "output_tokens": 1747,
+      "errors": 0,
+      "calls": 10
+    },
+    "cand": {
+      "score": 0.0,
+      "groups": {
+        "critical": 0.0
+      },
+      "cost": 0.0,
+      "latency": 0.7643856500042603,
+      "input_tokens": 2651,
+      "output_tokens": 1494,
+      "errors": 0,
+      "calls": 10
+    }
+  },
+  "baseline_runs": {
+    "t01": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"billing\",\"summary\":\"Charged twice for annual plan, demands immediate refund.\"}",
+          "latency": 1.4146857000887394,
+          "cost": 0.0,
+          "input_tokens": 255,
+          "output_tokens": 184,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t02": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"technical\",\"summary\":\"Dashboard down for 3 hours, impacting team productivity and sales.\"}",
+          "latency": 1.4091965998522937,
+          "cost": 0.0,
+          "input_tokens": 249,
+          "output_tokens": 134,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t03": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"account\",\"summary\":\"User reports unauthorized login and email change, suspecting account hack.\"}",
+          "latency": 0.8304416998289526,
+          "cost": 0.0,
+          "input_tokens": 248,
+          "output_tokens": 147,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t04": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"technical\",\"summary\":\"Project files lost after update, urgent help needed.\"}",
+          "latency": 0.28819120000116527,
+          "cost": 0.0,
+          "input_tokens": 247,
+          "output_tokens": 106,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t05": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"billing\",\"summary\":\"Customer was charged after cancellation and demands a refund.\"}",
+          "latency": 1.0723102998454124,
+          "cost": 0.0,
+          "input_tokens": 251,
+          "output_tokens": 150,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t06": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"technical\",\"summary\":\"API returns other customers' data, indicating a serious data leak.\"}",
+          "latency": 0.5417341999709606,
+          "cost": 0.0,
+          "input_tokens": 249,
+          "output_tokens": 215,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t07": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"shipping\",\"summary\":\"Customer reports third lost order, demands refund and manager contact.\"}",
+          "latency": 0.8784354999661446,
+          "cost": 0.0,
+          "input_tokens": 255,
+          "output_tokens": 208,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t08": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"billing\",\"summary\":\"Company locked out of enterprise plan, 50 seats, and charged for this month.\"}",
+          "latency": 0.6198218998033553,
+          "cost": 0.0,
+          "input_tokens": 253,
+          "output_tokens": 343,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": false,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    },
+    "t09": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"billing\",\"summary\":\"Invoice shows $12,000 instead of $1,200, urgent correction needed.\"}",
+          "latency": 0.8713666000403464,
+          "cost": 0.0,
+          "input_tokens": 255,
+          "output_tokens": 153,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t10": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"technical\",\"summary\":\"Checkout failing for all customers, causing revenue loss.\"}",
+          "latency": 0.620765799889341,
+          "cost": 0.0,
+          "input_tokens": 249,
+          "output_tokens": 107,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    }
+  },
+  "candidate_runs": {
+    "t01": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"other\",\"summary\":\"Customer was double charged $240 for annual plan and demands immediate refund.\"}",
+          "latency": 1.06002979981713,
+          "cost": 0.0,
+          "input_tokens": 269,
+          "output_tokens": 138,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": false,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    },
+    "t02": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"other\",\"summary\":\"Dashboard down for 3 hours, team unable to work, sales lost.\"}",
+          "latency": 1.2823222000151873,
+          "cost": 0.0,
+          "input_tokens": 263,
+          "output_tokens": 149,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": false,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    },
+    "t03": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"other\",\"summary\":\"Account compromised: unauthorized login from foreign country changed email.\"}",
+          "latency": 0.9020187999121845,
+          "cost": 0.0,
+          "input_tokens": 262,
+          "output_tokens": 140,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": false,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    },
+    "t04": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"other\",\"summary\":\"All project files disappeared after update, months of work lost.\"}",
+          "latency": 1.181711400160566,
+          "cost": 0.0,
+          "input_tokens": 261,
+          "output_tokens": 125,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": false,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    },
+    "t05": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"other\",\"summary\":\"Charged after cancellation, demands refund and threatens consumer protection.\"}",
+          "latency": 0.5756794000044465,
+          "cost": 0.0,
+          "input_tokens": 265,
+          "output_tokens": 169,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": false,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    },
+    "t06": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"other\",\"summary\":\"API returns data of other customers, indicating a serious data leak.\"}",
+          "latency": 0.5871931000147015,
+          "cost": 0.0,
+          "input_tokens": 263,
+          "output_tokens": 130,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": false,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    },
+    "t07": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"other\",\"summary\":\"Customer reports third lost order, demands full refund and manager contact.\"}",
+          "latency": 0.5473444000817835,
+          "cost": 0.0,
+          "input_tokens": 269,
+          "output_tokens": 141,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": false,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    },
+    "t08": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"other\",\"summary\":\"Company locked out of enterprise plan, 50 seats, and charged for the month.\"}",
+          "latency": 0.7874940000474453,
+          "cost": 0.0,
+          "input_tokens": 267,
+          "output_tokens": 218,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": false,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    },
+    "t09": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"other\",\"summary\":\"Invoice shows $12,000 instead of $1,200 per contract; request correction before legal action.\"}",
+          "latency": 0.4343230000231415,
+          "cost": 0.0,
+          "input_tokens": 269,
+          "output_tokens": 156,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": false,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    },
+    "t10": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"other\",\"summary\":\"Checkout process failing for all customers, causing revenue loss.\"}",
+          "latency": 0.2857403999660164,
+          "cost": 0.0,
+          "input_tokens": 263,
+          "output_tokens": 128,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": false,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    }
+  },
+  "cache": {
+    "enabled": true,
+    "baseline_cache_hit": true,
+    "cache_key": "16cf96d6bfcd709bb7b38c6d4a2b79ccc4f837d05ca8720eb25ac101d69205b0",
+    "planned_api_calls": 10,
+    "api_calls_saved": 10
+  }
+}

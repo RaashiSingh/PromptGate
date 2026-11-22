@@ -1,0 +1,13 @@
+
+# LLM configuration
+model: openai/gpt-oss-20b
+temperature: 0.0
+
+# Testing configuration
+repeats: 3
+workers: 2
+
+# Regression detection thresholds
+tolerance: 0.05
+group_tolerance: 0.10
+critical_group: critical

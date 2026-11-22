@@ -1,0 +1,162 @@
+{
+  "comparison": {
+    "verdict": "FAIL",
+    "reasons": [
+      "Overall score dropped 33.3% (tolerance 5.0%)",
+      "Group 'critical' dropped 33.3% (tolerance 10.0%)",
+      "1 critical case(s) flipped pass to fail: t01"
+    ],
+    "flips_down": [
+      "t01"
+    ],
+    "flips_up": [],
+    "base": {
+      "score": 1.0,
+      "groups": {
+        "critical": 1.0
+      },
+      "cost": 0.0,
+      "latency": 0.8530183332040906,
+      "input_tokens": 752,
+      "output_tokens": 458,
+      "errors": 0,
+      "calls": 3
+    },
+    "cand": {
+      "score": 0.6666666666666666,
+      "groups": {
+        "critical": 0.6666666666666666
+      },
+      "cost": 0.0,
+      "latency": 0.6603519668181738,
+      "input_tokens": 791,
+      "output_tokens": 594,
+      "errors": 0,
+      "calls": 3
+    }
+  },
+  "baseline_runs": {
+    "t01": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"billing\",\"summary\":\"Charged twice for annual plan, demands immediate refund.\"}",
+          "latency": 0.9444197998382151,
+          "cost": 0.0,
+          "input_tokens": 255,
+          "output_tokens": 184,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t02": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"technical\",\"summary\":\"Dashboard down for 3 hours, impacting team productivity and sales.\"}",
+          "latency": 0.914793899981305,
+          "cost": 0.0,
+          "input_tokens": 249,
+          "output_tokens": 127,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t03": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"account\",\"summary\":\"User reports unauthorized login and email change, suspecting account hack.\"}",
+          "latency": 0.6998412997927517,
+          "cost": 0.0,
+          "input_tokens": 248,
+          "output_tokens": 147,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    }
+  },
+  "candidate_runs": {
+    "t01": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"low\",\"category\":\"billing\",\"summary\":\"Customer was double-charged for annual plan and requests a refund.\"}",
+          "latency": 0.5154288001358509,
+          "cost": 0.0,
+          "input_tokens": 268,
+          "output_tokens": 170,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": true,
+            "priority": false,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    },
+    "t02": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"technical\",\"summary\":\"Dashboard down for 3 hours, impacting team productivity and sales.\"}",
+          "latency": 0.6447315001860261,
+          "cost": 0.0,
+          "input_tokens": 262,
+          "output_tokens": 167,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t03": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"account\",\"summary\":\"User reports unauthorized login from foreign country and email change, suspecting account hack.\"}",
+          "latency": 0.8208956001326442,
+          "cost": 0.0,
+          "input_tokens": 261,
+          "output_tokens": 257,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "comparison": {
+    "verdict": "FAIL",
+    "reasons": [
+      "Overall score dropped 100.0% (tolerance 5.0%)",
+      "Group 'critical' dropped 100.0% (tolerance 10.0%)",
+      "3 critical case(s) flipped pass to fail: t01, t02, t03"
+    ],
+    "flips_down": [
+      "t01",
+      "t02",
+      "t03"
+    ],
+    "flips_up": [],
+    "base": {
+      "score": 1.0,
+      "groups": {
+        "critical": 1.0
+      },
+      "cost": 0.0,
+      "latency": 0.8262126999907196,
+      "input_tokens": 752,
+      "output_tokens": 458,
+      "errors": 0,
+      "calls": 3
+    },
+    "cand": {
+      "score": 0.0,
+      "groups": {
+        "critical": 0.0
+      },
+      "cost": 0.0,
+      "latency": 0.5784760333287219,
+      "input_tokens": 791,
+      "output_tokens": 584,
+      "errors": 0,
+      "calls": 3
+    }
+  },
+  "baseline_runs": {
+    "t01": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"billing\",\"summary\":\"Charged twice for annual plan, demands immediate refund.\"}",
+          "latency": 0.9825915999244899,
+          "cost": 0.0,
+          "input_tokens": 255,
+          "output_tokens": 184,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t02": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"technical\",\"summary\":\"Dashboard down for 3 hours, impacting team productivity and sales.\"}",
+          "latency": 0.9902514000423253,
+          "cost": 0.0,
+          "input_tokens": 249,
+          "output_tokens": 127,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    },
+    "t03": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"high\",\"category\":\"account\",\"summary\":\"User reports unauthorized login and email change, suspecting account hack.\"}",
+          "latency": 0.5057951000053436,
+          "cost": 0.0,
+          "input_tokens": 248,
+          "output_tokens": 147,
+          "error": null,
+          "passed": true,
+          "checks": {
+            "valid_json": true,
+            "priority": true,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 1.0
+    }
+  },
+  "candidate_runs": {
+    "t01": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"medium\",\"category\":\"billing\",\"summary\":\"Customer was double-charged for annual plan and requests immediate refund.\"}",
+          "latency": 0.7145010998938233,
+          "cost": 0.0,
+          "input_tokens": 268,
+          "output_tokens": 170,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": true,
+            "priority": false,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    },
+    "t02": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"medium\",\"category\":\"technical\",\"summary\":\"Dashboard down for 3 hours, impacting team productivity and sales.\"}",
+          "latency": 0.4047596000600606,
+          "cost": 0.0,
+          "input_tokens": 262,
+          "output_tokens": 180,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": true,
+            "priority": false,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    },
+    "t03": {
+      "runs": [
+        {
+          "text": "{\"priority\":\"medium\",\"category\":\"account\",\"summary\":\"User reports unauthorized login from another country and email change, suspecting account hack.\"}",
+          "latency": 0.6161674000322819,
+          "cost": 0.0,
+          "input_tokens": 261,
+          "output_tokens": 234,
+          "error": null,
+          "passed": false,
+          "checks": {
+            "valid_json": true,
+            "priority": false,
+            "category": true,
+            "summary": true
+          }
+        }
+      ],
+      "pass_rate": 0.0
+    }
+  }
+}

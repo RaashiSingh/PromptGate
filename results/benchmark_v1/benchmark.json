@@ -1,0 +1,142 @@
+[
+  {
+    "mutation_id": "M01",
+    "mutation_type": "regression",
+    "status": "FAIL",
+    "fingerprint": "354270609c2a636f3f0e070341cb36689806b5b28b98542c91516a5f4e153c01",
+    "returncode": 1,
+    "duration_seconds": 4.11,
+    "stdout": "Model: openai/gpt-oss-20b\nCases: 3\nRepeats: 1\nPlanned API calls: 6\n\nRunning baseline prompt...\nRunning candidate prompt...\n\n=============================================\nPROMPTGATE VERDICT: FAIL\n=============================================\nBaseline score: 100.0%\nCandidate score: 0.0%\n- Overall score dropped 100.0% (tolerance 5.0%)\n- Group 'critical' dropped 100.0% (tolerance 10.0%)\n- 3 critical case(s) flipped pass to fail: t01, t02, t03\n\nReports saved in results/\nHTML: results/report.html\nMarkdown: results/report.md\n",
+    "stderr": ""
+  },
+  {
+    "mutation_id": "M02",
+    "mutation_type": "regression",
+    "status": "FAIL",
+    "fingerprint": "1bba8b03d3dcb7b9bc4f5a947225b8d04dac831dc746ef70ce83c26e15345550",
+    "returncode": 1,
+    "duration_seconds": 3.37,
+    "stdout": "Model: openai/gpt-oss-20b\nCases: 3\nRepeats: 1\nPlanned API calls: 6\n\nRunning baseline prompt...\nRunning candidate prompt...\n\n=============================================\nPROMPTGATE VERDICT: FAIL\n=============================================\nBaseline score: 100.0%\nCandidate score: 0.0%\n- Overall score dropped 100.0% (tolerance 5.0%)\n- Group 'critical' dropped 100.0% (tolerance 10.0%)\n- 3 critical case(s) flipped pass to fail: t01, t02, t03\n\nReports saved in results/\nHTML: results/report.html\nMarkdown: results/report.md\n",
+    "stderr": ""
+  },
+  {
+    "mutation_id": "M03",
+    "mutation_type": "regression",
+    "status": "FAIL",
+    "fingerprint": "e9a9ee2559b61a55f66198849288f1193b6d3659c330102f151ddebbdda059c0",
+    "returncode": 1,
+    "duration_seconds": 3.77,
+    "stdout": "Model: openai/gpt-oss-20b\nCases: 3\nRepeats: 1\nPlanned API calls: 6\n\nRunning baseline prompt...\nRunning candidate prompt...\n\n=============================================\nPROMPTGATE VERDICT: FAIL\n=============================================\nBaseline score: 100.0%\nCandidate score: 33.3%\n- Overall score dropped 66.7% (tolerance 5.0%)\n- Group 'critical' dropped 66.7% (tolerance 10.0%)\n- 2 critical case(s) flipped pass to fail: t02, t03\n\nReports saved in results/\nHTML: results/report.html\nMarkdown: results/report.md\n",
+    "stderr": ""
+  },
+  {
+    "mutation_id": "M04",
+    "mutation_type": "regression",
+    "status": "FAIL",
+    "fingerprint": "c5a5d95bc78cd1b78c8297a1e39b5af2c35682c0d45d0e9ae9810a9069e95659",
+    "returncode": 1,
+    "duration_seconds": 3.72,
+    "stdout": "Model: openai/gpt-oss-20b\nCases: 3\nRepeats: 1\nPlanned API calls: 6\n\nRunning baseline prompt...\nRunning candidate prompt...\n\n=============================================\nPROMPTGATE VERDICT: FAIL\n=============================================\nBaseline score: 100.0%\nCandidate score: 0.0%\n- Overall score dropped 100.0% (tolerance 5.0%)\n- Group 'critical' dropped 100.0% (tolerance 10.0%)\n- 3 critical case(s) flipped pass to fail: t01, t02, t03\n\nReports saved in results/\nHTML: results/report.html\nMarkdown: results/report.md\n",
+    "stderr": ""
+  },
+  {
+    "mutation_id": "M05",
+    "mutation_type": "regression",
+    "status": "FAIL",
+    "fingerprint": "30b850a97a32a13d0c5212fe214f822ba001acd7d3a33f459b6adaa6d1e2653e",
+    "returncode": 1,
+    "duration_seconds": 4.34,
+    "stdout": "Model: openai/gpt-oss-20b\nCases: 3\nRepeats: 1\nPlanned API calls: 6\n\nRunning baseline prompt...\nRunning candidate prompt...\n\n=============================================\nPROMPTGATE VERDICT: FAIL\n=============================================\nBaseline score: 100.0%\nCandidate score: 0.0%\n- Overall score dropped 100.0% (tolerance 5.0%)\n- Group 'critical' dropped 100.0% (tolerance 10.0%)\n- 3 critical case(s) flipped pass to fail: t01, t02, t03\n\nReports saved in results/\nHTML: results/report.html\nMarkdown: results/report.md\n",
+    "stderr": ""
+  },
+  {
+    "mutation_id": "M06",
+    "mutation_type": "regression",
+    "status": "FAIL",
+    "fingerprint": "2796d578168c607f3f608989140e5c9e50d88f1302861b980b98b92dbada9f55",
+    "returncode": 1,
+    "duration_seconds": 3.93,
+    "stdout": "Model: openai/gpt-oss-20b\nCases: 3\nRepeats: 1\nPlanned API calls: 6\n\nRunning baseline prompt...\nRunning candidate prompt...\n\n=============================================\nPROMPTGATE VERDICT: FAIL\n=============================================\nBaseline score: 100.0%\nCandidate score: 0.0%\n- Overall score dropped 100.0% (tolerance 5.0%)\n- Group 'critical' dropped 100.0% (tolerance 10.0%)\n- 3 critical case(s) flipped pass to fail: t01, t02, t03\n\nReports saved in results/\nHTML: results/report.html\nMarkdown: results/report.md\n",
+    "stderr": ""
+  },
+  {
+    "mutation_id": "M07",
+    "mutation_type": "regression",
+    "status": "FAIL",
+    "fingerprint": "859956d03f67d6e5cb23a77e2bb9dcfdbb175aa951c52112dec6888543f25a54",
+    "returncode": 1,
+    "duration_seconds": 3.75,
+    "stdout": "Model: openai/gpt-oss-20b\nCases: 3\nRepeats: 1\nPlanned API calls: 6\n\nRunning baseline prompt...\nRunning candidate prompt...\n\n=============================================\nPROMPTGATE VERDICT: FAIL\n=============================================\nBaseline score: 100.0%\nCandidate score: 0.0%\n- Overall score dropped 100.0% (tolerance 5.0%)\n- Group 'critical' dropped 100.0% (tolerance 10.0%)\n- 3 critical case(s) flipped pass to fail: t01, t02, t03\n\nReports saved in results/\nHTML: results/report.html\nMarkdown: results/report.md\n",
+    "stderr": ""
+  },
+  {
+    "mutation_id": "M08",
+    "mutation_type": "regression",
+    "status": "FAIL",
+    "fingerprint": "fd9d7254a2bd1df3a51865c823f1791fd9d204ad4066777e6fe67c59d20bd58b",
+    "returncode": 1,
+    "duration_seconds": 3.85,
+    "stdout": "Model: openai/gpt-oss-20b\nCases: 3\nRepeats: 1\nPlanned API calls: 6\n\nRunning baseline prompt...\nRunning candidate prompt...\n\n=============================================\nPROMPTGATE VERDICT: FAIL\n=============================================\nBaseline score: 100.0%\nCandidate score: 0.0%\n- Overall score dropped 100.0% (tolerance 5.0%)\n- Group 'critical' dropped 100.0% (tolerance 10.0%)\n- 3 critical case(s) flipped pass to fail: t01, t02, t03\n\nReports saved in results/\nHTML: results/report.html\nMarkdown: results/report.md\n",
+    "stderr": ""
+  },
+  {
+    "mutation_id": "M09",
+    "mutation_type": "regression",
+    "status": "FAIL",
+    "fingerprint": "a7fec43a868fbb8a9f7a79ff7e6a4ed741b5fc2adcb5e318d8dadc0a8b9cd8dd",
+    "returncode": 1,
+    "duration_seconds": 3.13,
+    "stdout": "Model: openai/gpt-oss-20b\nCases: 3\nRepeats: 1\nPlanned API calls: 6\n\nRunning baseline prompt...\nRunning candidate prompt...\n\n=============================================\nPROMPTGATE VERDICT: FAIL\n=============================================\nBaseline score: 100.0%\nCandidate score: 66.7%\n- Overall score dropped 33.3% (tolerance 5.0%)\n- Group 'critical' dropped 33.3% (tolerance 10.0%)\n- 1 critical case(s) flipped pass to fail: t03\n\nReports saved in results/\nHTML: results/report.html\nMarkdown: results/report.md\n",
+    "stderr": ""
+  },
+  {
+    "mutation_id": "M10",
+    "mutation_type": "regression",
+    "status": "FAIL",
+    "fingerprint": "0e1ad6e13f491adea3a6040b94e45ad5067952390619799a8e92d0de532aa026",
+    "returncode": 1,
+    "duration_seconds": 3.41,
+    "stdout": "Model: openai/gpt-oss-20b\nCases: 3\nRepeats: 1\nPlanned API calls: 6\n\nRunning baseline prompt...\nRunning candidate prompt...\n\n=============================================\nPROMPTGATE VERDICT: FAIL\n=============================================\nBaseline score: 100.0%\nCandidate score: 66.7%\n- Overall score dropped 33.3% (tolerance 5.0%)\n- Group 'critical' dropped 33.3% (tolerance 10.0%)\n- 1 critical case(s) flipped pass to fail: t02\n\nReports saved in results/\nHTML: results/report.html\nMarkdown: results/report.md\n",
+    "stderr": ""
+  },
+  {
+    "mutation_id": "M11",
+    "mutation_type": "regression",
+    "status": "FAIL",
+    "fingerprint": "70bfbbc8154fc26ad46773db8b3020db21a83a8fa3aa2927ea9b5c8a321cd304",
+    "returncode": 1,
+    "duration_seconds": 3.91,
+    "stdout": "Model: openai/gpt-oss-20b\nCases: 3\nRepeats: 1\nPlanned API calls: 6\n\nRunning baseline prompt...\nRunning candidate prompt...\n\n=============================================\nPROMPTGATE VERDICT: FAIL\n=============================================\nBaseline score: 100.0%\nCandidate score: 66.7%\n- Overall score dropped 33.3% (tolerance 5.0%)\n- Group 'critical' dropped 33.3% (tolerance 10.0%)\n- 1 critical case(s) flipped pass to fail: t01\n\nReports saved in results/\nHTML: results/report.html\nMarkdown: results/report.md\n",
+    "stderr": ""
+  },
+  {
+    "mutation_id": "M12",
+    "mutation_type": "regression",
+    "status": "FAIL",
+    "fingerprint": "a3d2fd49767dd542a05840d9af050f39affd1df4f09a63d1e49e00fabf068a53",
+    "returncode": 1,
+    "duration_seconds": 4.16,
+    "stdout": "Model: openai/gpt-oss-20b\nCases: 3\nRepeats: 1\nPlanned API calls: 6\n\nRunning baseline prompt...\nRunning candidate prompt...\n\n=============================================\nPROMPTGATE VERDICT: FAIL\n=============================================\nBaseline score: 100.0%\nCandidate score: 0.0%\n- Overall score dropped 100.0% (tolerance 5.0%)\n- Group 'critical' dropped 100.0% (tolerance 10.0%)\n- 3 critical case(s) flipped pass to fail: t01, t02, t03\n\nReports saved in results/\nHTML: results/report.html\nMarkdown: results/report.md\n",
+    "stderr": ""
+  },
+  {
+    "mutation_id": "M13",
+    "mutation_type": "harmless",
+    "status": "PASS",
+    "fingerprint": "db9e83678c38e145e6b5c79feb7df1bafa245e2bd0af55a6e8941d3c1b88d732",
+    "returncode": 0,
+    "duration_seconds": 3.23,
+    "stdout": "Model: openai/gpt-oss-20b\nCases: 3\nRepeats: 1\nPlanned API calls: 6\n\nRunning baseline prompt...\nRunning candidate prompt...\n\n=============================================\nPROMPTGATE VERDICT: PASS\n=============================================\nBaseline score: 100.0%\nCandidate score: 100.0%\n\nReports saved in results/\nHTML: results/report.html\nMarkdown: results/report.md\n",
+    "stderr": ""
+  },
+  {
+    "mutation_id": "M14",
+    "mutation_type": "harmless",
+    "status": "PASS",
+    "fingerprint": "003a2a41b906b3976027abc83869bb4ceeb646bc5719f2a79c2aace9231ec2eb",
+    "returncode": 0,
+    "duration_seconds": 3.84,
+    "stdout": "Model: openai/gpt-oss-20b\nCases: 3\nRepeats: 1\nPlanned API calls: 6\n\nRunning baseline prompt...\nRunning candidate prompt...\n\n=============================================\nPROMPTGATE VERDICT: PASS\n=============================================\nBaseline score: 100.0%\nCandidate score: 100.0%\n\nReports saved in results/\nHTML: results/report.html\nMarkdown: results/report.md\n",
+    "stderr": ""
+  }
+]

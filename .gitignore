@@ -1,0 +1,85 @@
+# ==========================================
+# PYTHON VIRTUAL ENVIRONMENTS
+# ==========================================
+
+.venv/
+venv/
+env/
+
+# ==========================================
+# PYTHON CACHE
+# ==========================================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# ==========================================
+# API KEYS AND SECRETS
+# ==========================================
+
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ==========================================
+# TEST COVERAGE
+# ==========================================
+
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# ==========================================
+# GENERATED REPORTS AND LIVE RESULTS
+# ==========================================
+
+report.html
+report.md
+results/live_runs/
+results/cache/
+.cache/
+
+# ==========================================
+# LOGS AND TEMPORARY FILES
+# ==========================================
+
+*.log
+*.tmp
+*.bak
+
+# ==========================================
+# IDE CONFIGURATION
+# ==========================================
+
+.vscode/
+.idea/
+
+# ==========================================
+# OPERATING SYSTEM FILES
+# ==========================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# PYTHON BUILD FILES
+# ==========================================
+
+build/
+dist/
+*.egg-info/
+# Local source backups
+*_backup.py
+# ==========================================
+# UNVERSIONED BENCHMARK WORKING FILES
+# ==========================================
+
+/results/benchmark.json
+/results/comparison.json
+/results/mutations/
