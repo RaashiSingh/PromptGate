@@ -4,7 +4,9 @@
 
 **Detect regressions. Validate changes. Ship prompts with confidence.**
 
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-Evaluation_Studio-FF4B4B?logo=streamlit&logoColor=white) ![Tests](https://img.shields.io/badge/Local_tests-398_passed-22863a) ![Coverage](https://img.shields.io/badge/Backend_coverage-100%25-22863a) ![CI](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-Evaluation_Studio-FF4B4B?logo=streamlit&logoColor=white) ![Tests](https://img.shields.io/badge/Local_tests-398_passed-22863a) ![Coverage](https://img.shields.io/badge/Backend_coverage-100%25-22863a)
+[![PromptGate CI](https://github.com/RaashiSingh/PromptGate/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/RaashiSingh/PromptGate/actions/workflows/ci.yml)
+
 
 PromptGate is a Python-based reliability engineering framework for evaluating changes to LLM system prompts before they are deployed. It compares baseline and candidate prompts against a structured test suite, identifies behavioral regressions, explains quality-gate decisions, and reduces redundant inference through baseline caching.
 
